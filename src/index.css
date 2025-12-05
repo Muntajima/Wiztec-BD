@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap');
+
+@import url(https://db.onlinewebfonts.com/c/7b7a625024c0f39cbca2cf9674f51d94?family=General+Sans+Variable);
+
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+.Alex {
+  font-family: "Alexandria", sans-serif;
+}
+
+.GSans {
+    font-family: "General Sans Variable";
+    src: url("https://db.onlinewebfonts.com/t/7b7a625024c0f39cbca2cf9674f51d94.eot");
+    src: url("https://db.onlinewebfonts.com/t/7b7a625024c0f39cbca2cf9674f51d94.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7b7a625024c0f39cbca2cf9674f51d94.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7b7a625024c0f39cbca2cf9674f51d94.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7b7a625024c0f39cbca2cf9674f51d94.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7b7a625024c0f39cbca2cf9674f51d94.svg#General Sans Variable")format("svg");
+}
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

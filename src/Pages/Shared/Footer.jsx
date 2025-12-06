@@ -1,8 +1,8 @@
 
 const Footer = () => {
   return (
-    <div className="bg-[#251621] text-[#FFFFFF] rounded-t-3xl">
-      <footer className="footer grid grid-flow-col p-10">
+    <div className="bg-[#251621] text-[#FFFFFF] rounded-t-3xl mt-80">
+      <footer className="footer grid grid-flow-col p-10 justify-between">
         <div>
           <span className="footer-title">About Us</span>
           <a className="link link-hover">Resources</a>

@@ -1,9 +1,10 @@
 import React from 'react';
+import HomePage from '../HomePage/HomePage';
 
 const Home = () => {
     return (
-        <div className=''>
-            <h1>this is home</h1>
+        <div className='min-h-screen'>
+            <HomePage></HomePage>
         </div>
     );
 };

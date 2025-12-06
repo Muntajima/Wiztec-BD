@@ -1,0 +1,64 @@
+
+[
+    {
+      "id": 1,
+      "name": "Maple Grove Garden House",
+      "image": "/images/Picture2.png",
+      "bed": "04",
+      "bathroom": "04",
+      "size": "2500sft",
+      "price": "$280",
+      "location": "New york, USA"
+    },
+    {
+      "id": 2,
+      "name": "Sunset Towers Eklosbet",
+      "image": "/images/Picture3.png",
+      "bed": "07",
+      "bathroom": "04",
+      "size": "6500sft",
+      "price": "$340",
+      "location": "New york, USA"
+    },
+    {
+      "id": 3,
+      "name": "Riverside Retreat",
+      "image": "/images/Picture4.png",
+      "bed": "04",
+      "bathroom": "03",
+      "size": "3500sft",
+      "price": "$280",
+      "location": "New york, USA"
+    },
+    {
+      "id": 4,
+      "name": "Golden Meadows ",
+      "image": "/images/Picture5.png",
+      "bed": "06",
+      "bathroom": "04",
+      "size": "4500sft",
+      "price": "$300",
+      "location": "New york, USA"
+    },
+    {
+      "id": 5,
+      "name": "Ocean Sea Breeze ",
+      "image": "/images/Picture6.png",
+      "bed": "08",
+      "bathroom": "05",
+      "size": "9500sft",
+      "price": "$400",
+      "location": "New york, USA"
+    },
+    {
+      "id": 6,
+      "name": "The Urban Nest Lofts",
+      "image": "/images/Picture7.png",
+      "bed": "06",
+      "bathroom": "04",
+      "size": "5500sft",
+      "price": "$320",
+      "location": "New york, USA"
+    }
+    
+]

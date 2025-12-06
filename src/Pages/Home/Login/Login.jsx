@@ -1,12 +1,17 @@
-import { GoogleAuthProvider } from 'firebase/auth';
+import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import pic1 from '../../../assets/Picture1.png';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import auth from '../../../Firebase/firebase.init';
 
 const Login = () => {
 
     const provider = new GoogleAuthProvider;
     const handleGoogleSignIn = () => {
-        console.log("heeheee")
+        signInWithPopup(auth, provider)
+        .then((result) =>{
+            const user = result.user;
+            console.log(user)
+        })
     }
     return (
         <div>
@@ -25,22 +30,22 @@ const Login = () => {
                                 <p className='GSans text-xs font-medium'>Let’s login to grab amazing deal</p>
                             </div>
                             <div className="form-control GSans text-xs font-medium">
-                                <Link
+                                <Link onClick={handleGoogleSignIn}
                                     className='btn border border-1 w-full mx-auto my-2'><i class="fa-brands fa-google"></i> Continue with Google</Link>
 
                                 <Link
                                     className='btn border border-1 w-full mx-auto my-2'><i class="fa-brands fa-apple"></i> Continue with Apple</Link>
 
-                                <Link
-                                    className='btn border border-1 w-full mx-auto my-2'><i class="fa-solid fa-phone"></i> Continue with Email/Phone</Link>
+                                <NavLink to={'/sign-up'}
+                                    className='btn border border-1 w-full mx-auto my-2'><i class="fa-solid fa-phone"></i> Continue with Email/Phone</NavLink>
 
                             </div>
                             <div className="form-control mt-6 GSans">
                                 <p className="text-center font-semibold mb-4">
                                     Don't Have An Account ?{" "}
-                                    <Link className="text-red-800" to="/login">
-                                        Sign Up
-                                    </Link>
+                                    <NavLink to={'/sign-up'} className="text-red-800">
+                Sign Up
+                                    </NavLink>
                                 </p>
                             </div>
                         </form>
